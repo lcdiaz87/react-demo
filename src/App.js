@@ -8,15 +8,15 @@ class App extends React.Component {
     return (
       <BrowserRouter>
         <div className="grid-container">
-          <header>
+          {/* <header>
             <Link to="/">Dashboard</Link>
             <Link to="/statistics">Statistics</Link>
-          </header>
+          </header> */}
           <main>
             <Route path="/statistics" component={StatisticsScreen} />
             <Route path="/" component={DashboardScreen} exact />
           </main>
-          <footer>Demo for Job-Impulse</footer>
+          {/* <footer>Demo for Job-Impulse</footer> */}
         </div>
       </BrowserRouter>
     );

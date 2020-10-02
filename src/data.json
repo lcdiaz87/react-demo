@@ -1,52 +1,84 @@
 {
-    "products": [
+    "centers": [
       {
-        "_id": "dress1",
-        "image": "/images/dress1.jpg",
-        "title": "Midi sundress with shirring detail",
-        "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
-        "availableSizes": ["X", "L", "XL", "XXL"],
-        "price": 29.9
+        "key": "center1",
+        "image": "/images/center1.jpg",
+        "title": "KC Aachen",
+        "timetable": "Mo 9:00 - 16:00 Uhr",
+        "address": "Eschweiler Str. 109",
+        "city": "52477 Alsford"
       },
       {
-        "_id": "dress2",
-        "image": "/images/dress2.jpg",
-        "title": "Midi sundress with ruched front",
-        "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
-        "availableSizes": ["X", "M", "L"],
-        "price": 18.9
+        "key": "center2",
+        "image": "/images/center1.jpg",
+        "title": "KC Aachen 2",
+        "timetable": "Mo 9:00 - 16:00 Uhr",
+        "address": "Eschweiler Str. 109",
+        "city": "52477 Alsford"
       },
       {
-        "_id": "dress3",
-        "image": "/images/dress3.jpg",
-        "title": "Midi dress in pink ditsy floral",
-        "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
-        "availableSizes": ["X", "M", "L"],
-        "price": 14.9
+        "key": "center3",
+        "image": "/images/center1.jpg",
+        "title": "KC Aachen 3",
+        "timetable": "Mo 9:00 - 16:00 Uhr",
+        "address": "Eschweiler Str. 109",
+        "city": "52477 Alsford"
       },
       {
-        "_id": "dress4",
-        "image": "/images/dress4.jpg",
-        "title": "cami maxi dress in polka dot",
-        "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
-        "availableSizes": ["XL"],
-        "price": 25.9
+        "key": "center4",
+        "image": "/images/center1.jpg",
+        "title": "KC Aachen 4",
+        "timetable": "Mo 9:00 - 16:00 Uhr",
+        "address": "Eschweiler Str. 109",
+        "city": "52477 Alsford"
       },
       {
-        "_id": "dress5",
-        "image": "/images/dress5.jpg",
-        "title": "Frill mini dress in yellow polka dot",
-        "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
-        "availableSizes": ["X", "L", "XL"],
-        "price": 10.9
+        "key": "center5",
+        "image": "/images/center1.jpg",
+        "title": "KC Aachen 5",
+        "timetable": "Mo 9:00 - 16:00 Uhr",
+        "address": "Eschweiler Str. 109",
+        "city": "52477 Alsford"
       },
       {
-        "_id": "dress6",
-        "image": "/images/dress6.jpg",
-        "title": "Midi tea dress in blue and red spot",
-        "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
-        "availableSizes": ["XL", "XXL"],
-        "price": 49.9
+        "key": "center6",
+        "image": "/images/center1.jpg",
+        "title": "KC Aachen 6",
+        "timetable": "Mo 9:00 - 16:00 Uhr",
+        "address": "Eschweiler Str. 109",
+        "city": "52477 Alsford"
+      },
+      {
+        "key": "center7",
+        "image": "/images/center1.jpg",
+        "title": "KC Aachen 7",
+        "timetable": "Mo 9:00 - 16:00 Uhr",
+        "address": "Eschweiler Str. 109",
+        "city": "52477 Alsford"
+      },
+      {
+        "key": "center8",
+        "image": "/images/center1.jpg",
+        "title": "KC Aachen 8",
+        "timetable": "Mo 9:00 - 16:00 Uhr",
+        "address": "Eschweiler Str. 109",
+        "city": "52477 Alsford"
+      },
+      {
+        "key": "center9",
+        "image": "/images/center1.jpg",
+        "title": "KC Aachen 9",
+        "timetable": "Mo 9:00 - 16:00 Uhr",
+        "address": "Eschweiler Str. 109",
+        "city": "52477 Alsford"
+      },
+      {
+        "key": "center10",
+        "image": "/images/center1.jpg",
+        "title": "KC Aachen 10",
+        "timetable": "Mo 9:00 - 16:00 Uhr",
+        "address": "Eschweiler Str. 109",
+        "city": "52477 Alsford"
       }
     ]
   }
