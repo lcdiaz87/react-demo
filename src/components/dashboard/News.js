@@ -37,12 +37,12 @@ class News extends Component {
                                 this.state.news.map((item, index) => 
                                      <tr key={index}>
                                         <td  style={{width: "30px"}} className="col-vertical-align">
-                                            <p style = {{
+                                            <small style = {{
                                                 display: "inline-block",
                                                 fontSize:"1em",
-                                                width:"2.5em",
-                                                height:"2.5em",
-                                                lineHeight:"2.5em",
+                                                width:"2em",
+                                                height:"2em",
+                                                lineHeight:"2em",
                                                 textAlign:"center",
                                                 borderRadius:"50%",
                                                 background: item.backgroundColor,
@@ -50,10 +50,10 @@ class News extends Component {
                                                 marginRight:"1em",
                                                 color:"white"
                                             }}>
-                                                <small>{item.nameInitials}</small>
-                                            </p>
+                                            {item.nameInitials}
+                                            </small>
                                         </td>
-                                        <td className="col-vertical-align"><p className="title-news"><strong>{item.title}</strong></p></td>
+                                        <td className="col-vertical-align"><strong className="title-news">{item.title}</strong></td>
                                         <td style={{width: "70px"}}  className="col-vertical-align">{ formatDate(item.published) }</td>
                                     </tr>
                                 )

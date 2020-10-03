@@ -146,6 +146,32 @@
         "title": "My first task",
         "backgroundColor": "purple"
       }
-    ]
+    ],
+    "phone":{
+      "first":{
+        "key": "firstProgressBar",
+        "value": 73,
+        "accepted": 15,
+        "calls": 22
+      },
+      "second":{
+        "key": "secondProgressBar",
+        "total": "3:23",
+        "last": "58:32 min",
+        "speaking":"51:31",
+        "value": 85,
+        "waiting": "7:01"
+      },
+      "third":{
+        "callsToday": 100,
+        "answeredCalls": 88,
+        "availabilityRate": "88%"
+      },
+      "fourth": [
+        { "x": "Chrome", "y": 37 }, { "x": "UC Browser", "y": 17 },
+        { "x": "iPhone", "y": 19 }, { "x": "Others", "y": 4, "text": "4" },
+        { "x": "Opera", "y": 11 }
+      ]
+    }
   }
   

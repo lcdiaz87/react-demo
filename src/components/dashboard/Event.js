@@ -21,7 +21,7 @@ class Event extends Component {
                 <Formik initialValues={{orderBy: 'Newest'}}>
                 <Form>
                 <Row>
-                    <Col xs={9} md={8}><h4>Events</h4></Col>
+                    <Col xs={7} md={5}><h4>Events</h4></Col>
                     <Col xs={1}>
                         <FontAwesomeIcon icon={faCalendar} />
                     </Col>

@@ -1,8 +1,5 @@
 import { dataBound } from "@syncfusion/ej2-react-grids";
 import React, { Component } from "react";
-//import Filter from "../components/Filter";
-//import Products from "../components/Products";
-//import Cart from "../components/Cart";
 import Menu from "../components/Menu";
 import data from "../data.json";
 import CustomerCenter from "../components/dashboard/CustomerCenter";
@@ -26,7 +23,29 @@ export default class DashboardScreen extends Component {
                     </div>
                 </div>
                 <div className="main">
-                    <Container fluid>
+                <section className="fill-height">
+                    <div>
+                        <div className="fill-width">
+                            <div className="bigger">
+                                <News news={data.news}  />
+                            </div>
+                            <div className="smaller">
+                                <Event events={data.events} />
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div className="fill-width">
+                            <div className="bigger">
+                                <Phone phone={data.phone} />
+                            </div>
+                            <div className="smaller">
+                                <Task tasks={data.tasks} />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                    {/* <Container fluid className="h-100">
                         <Row>
                             <Col className="p-3" xs={12} md={8}>
                                 <News news={data.news}  />
@@ -37,17 +56,13 @@ export default class DashboardScreen extends Component {
                         </Row>
                         <Row>
                             <Col className="p-3" xs={12} md={8}>
-                                <Phone phones={data.phones} />
+                                <Phone phone={data.phone} />
                             </Col>
                             <Col className="p-3" xs={12} md={4}>
                                 <Task tasks={data.tasks} />
                             </Col>
                         </Row>
-                    </Container>
-                    <div >
-                    </div>
-                    <div className="p-3">
-                    </div>
+                    </Container> */}
                 </div>
             </div>
         );
