@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Card } from "react-bootstrap";
 
-class CustomerCenter extends Component {
+class CardCenter extends Component {
   render() {
     return (
         <Card className="card-center m-1" key={this.props.center.key}>
@@ -19,4 +19,4 @@ class CustomerCenter extends Component {
     );
   }
 }
-export default CustomerCenter;
+export default CardCenter;

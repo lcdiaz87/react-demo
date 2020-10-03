@@ -80,6 +80,72 @@
         "address": "Eschweiler Str. 109",
         "city": "52477 Alsford"
       }
+    ],
+    "news":[
+      {
+        "title": "First news",
+        "published": 1601676362468,
+        "nameInitials": "LC",
+        "backgroundColor": "red"
+      },
+      {
+        "title": "Second news",
+        "published": 1601676362469,
+        "nameInitials": "JA",
+        "backgroundColor": "orange"
+      },
+      {
+        "title": "Third news",
+        "published": 1601676362471,
+        "nameInitials": "QC",
+        "backgroundColor": "yellow"
+      },
+      {
+        "title": "Fourth news",
+        "published": 1601676362478,
+        "nameInitials": "MG",
+        "backgroundColor": "blue"
+      },
+      {
+        "title": "Fifth news",
+        "published": 1601676362488,
+        "nameInitials": "MC",
+        "backgroundColor": "purple"
+      },
+      {
+        "title": "Sixth news",
+        "published": 1601676362498,
+        "nameInitials": "DA",
+        "backgroundColor": "black"
+      }
+    ],
+    "events":[
+      {
+        "title": "First event",
+        "start": 1601676362468,
+        "backgroundColor": "red"
+      },
+      {
+        "title": "Second news",
+        "start": 1601676362469,
+        "backgroundColor": "orange"
+      },
+      {
+        "title": "Third news",
+        "start": 1601676362471,
+        "backgroundColor": "yellow"
+      },
+      {
+        "title": "Fourth news",
+        "start": 1601676362478,
+        "backgroundColor": "blue"
+      }
+    ],
+    "tasks": [
+      {
+        "title": "My first task",
+        "backgroundColor": "purple"
+      }
     ]
   }
   
