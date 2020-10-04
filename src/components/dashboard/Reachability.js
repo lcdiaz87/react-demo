@@ -3,7 +3,10 @@ import { faEllipsisV } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Card } from "react-bootstrap";
 
-class ThirdStats extends Component {
+class Reachability extends Component {
+  constructor(props){
+    super(props);
+  }
   render() {
     
     return (
@@ -12,12 +15,12 @@ class ThirdStats extends Component {
               <Card.Title><span className="pr-1">Reachability</span> <span><FontAwesomeIcon icon={faEllipsisV} style={{float:"right"}} /></span></Card.Title>
               <hr/>
               <div  style={{textAlign: "center"}}>
-                <h2>{this.props.third.callsToday}</h2>
+                <h2>{this.props.reachability.callsToday}</h2>
                 <small className="colorGrey">Number of calls today</small>
-                <h2>{this.props.third.answeredCalls}</h2>
+                <h2>{this.props.reachability.answeredCalls}</h2>
                 <small className="colorGrey">Answered calls today</small>
                 <hr/>
-                <h2 style={{color: "green"}}>{this.props.third.availabilityRate}</h2>
+                <h2 style={{color: "green"}}>{this.props.reachability.availabilityRate}</h2>
                 <small className="colorGrey">Availability rate</small>
               </div>
           </Card.Body>
@@ -25,4 +28,4 @@ class ThirdStats extends Component {
     );
   }
 }
-export default ThirdStats;
+export default Reachability;

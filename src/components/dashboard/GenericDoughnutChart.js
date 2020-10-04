@@ -8,12 +8,33 @@ class GenericDoughnutChart extends Component {
     }
     render() {
         return (
-            <AccumulationChartComponent id='charts' height={this.props.height}>
-                <Inject services={[AccumulationDataLabel]} />
-                <AccumulationSeriesCollectionDirective>
-                    <AccumulationSeriesDirective dataLabel={this.dataLabel} dataSource={this.props.data} xName='x' yName='y' type='Pie' innerRadius='40%'/>
-                </AccumulationSeriesCollectionDirective>
-            </AccumulationChartComponent>
+            <div>
+                <div className="fill-width-blocked">
+                    {
+                        this.props.companies.map((company, index) =>
+                        <div key={index} className="blocked justify-content-center">
+                            <h4>{company.name}</h4>
+                        </div>
+                    )
+                    }
+                </div>
+                <div className="fill-width-blocked">
+                    {
+                        
+                        this.props.companies.map((company, index) =>
+                            <div key={index} className="blocked justify-content-center">
+                                <AccumulationChartComponent id={company.id} height={this.props.height} width={this.props.width}>
+                                    <Inject services={[AccumulationDataLabel]} />
+                                    <AccumulationSeriesCollectionDirective>
+                                        <AccumulationSeriesDirective dataLabel={this.dataLabel} dataSource={company.employees} xName='x' yName='y' type='Pie' innerRadius='40%'/>
+                                    </AccumulationSeriesCollectionDirective>
+                                </AccumulationChartComponent>
+                                
+                            </div>
+                        )
+                    }
+                </div>
+            </div>
         );
     }
 }

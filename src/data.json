@@ -148,30 +148,57 @@
       }
     ],
     "phone":{
-      "first":{
+      "allocatedCalls":{
         "key": "firstProgressBar",
         "value": 73,
         "accepted": 15,
         "calls": 22
       },
-      "second":{
+      "interviewTimes":{
         "key": "secondProgressBar",
+        "key2": "secondProgressBar2",
         "total": "3:23",
         "last": "58:32 min",
         "speaking":"51:31",
         "value": 85,
         "waiting": "7:01"
       },
-      "third":{
+      "reachability":{
         "callsToday": 100,
         "answeredCalls": 88,
         "availabilityRate": "88%"
       },
-      "fourth": [
-        { "x": "Chrome", "y": 37 }, { "x": "UC Browser", "y": 17 },
-        { "x": "iPhone", "y": 19 }, { "x": "Others", "y": 4, "text": "4" },
-        { "x": "Opera", "y": 11 }
+      "companies": [
+        {
+          "id": "id1",
+          "name": "",
+          "employees": [
+            { "x": "Chrome", "y": 37 }, { "x": "UC Browser", "y": 17 },
+            { "x": "iPhone", "y": 19 }, { "x": "Others", "y": 4, "text": "4" },
+            { "x": "Opera", "y": 11 }
+          ]
+        }
       ]
-    }
+    },
+    "companies": [
+      {
+        "id": "id2",
+        "name": "ZKB",
+        "employees":[
+          { "x": "Chrome", "y": 28 }, { "x": "UC Browser", "y": 2 },
+          { "x": "iPhone", "y": 20 }, { "x": "Others", "y": 10, "text": "ten" },
+          { "x": "Opera", "y": 21 }
+        ]
+      },
+      {
+        "id": "id3",
+        "name": "METTMANN",
+        "employees": [
+          { "x": "Chrome", "y": 41 }, { "x": "UC Browser", "y": 23 },
+          { "x": "iPhone", "y": 7 }, { "x": "Others", "y":11, "text": "eleven" },
+          { "x": "Opera", "y": 32 }
+        ]
+      }
+    ]
   }
   

@@ -10,15 +10,15 @@ class GenericProgressBar extends Component {
         return (
             <ProgressBarComponent id={this.props.id}
                         type={this.props.type}
-                        height={this.props.height}
+                        height="100%"
                         trackThickness={24}
                         progressThickness={24}
                         value={this.props.value}
                         enableRtl={false}
                         showProgressValue={true}
-                        trackColor="#E5E5E5"
+                        trackColor={this.props.bgcolor}
                         radius="100%"
-                        progressColor="#21BF65"
+                        progressColor={this.props.color}
                         cornerRadius="Round"
                         animation={{
                             enable: true,
