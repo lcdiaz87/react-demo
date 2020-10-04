@@ -42,7 +42,7 @@ export default class StatisticsScreen extends Component {
                 <div style={{ height: "28rem" }}>
                   <Employees companies={data.companies} mode="read" />
                 </div>
-                <div class="mt-0" style={{ height: "28rem" }}>
+                <div class="mt-0" style={{ height: "27rem" }}>
                   <TableEmployees tableEmployees={data.tableEmployees} mode="read" />
                 </div>
               </div>
@@ -51,7 +51,7 @@ export default class StatisticsScreen extends Component {
         </div>
 
         <div className="teams">
-          <div className="fill-width"  style={{height: "98%"}}>
+          <div className="fill-width">
             <div className="pr-2">
               <HoldingPattern data={data.holdingPatternV} />
             </div>

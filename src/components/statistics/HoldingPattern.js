@@ -9,12 +9,12 @@ class HoldingPattern extends Component {
   render() {
     
     return (
-      <Card className="m-1 w-100 h-100">
+      <Card className="m-2 w-100">
           <Card.Body className="p-0 ">
-              <Card.Title><span className="pr-1">{this.props.data.title}</span> 
+              <Card.Title className="pt-3 pl-3"><span className="pr-1">{this.props.data.title}</span> 
               {(this.props.mode === "edit") ? <span><FontAwesomeIcon icon={faEllipsisV} style={{float:"right"}} /></span> : ""}
               </Card.Title>
-              <hr/>
+              <div  className="pl-3 pr-3 m-0"><hr/></div>
               <div className="fill-height m-0 text-center">
                 <div className="pt-2 pb-2">
                     <h5 className="colorGrey">HOLDING PATTERNS</h5>
