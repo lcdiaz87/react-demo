@@ -210,6 +210,30 @@
         { "backgroundColor": "brown", "name": "Juan Antonio Bras", "nr": 345, "status": "Not ready", "time": "0:45min", "cause":"post processing", "group":"" }
       ],
       "thead":[ "Name", "NR", "Status", "Cause", "Group"]
+    },
+    "holdingPatternV":{
+      "title": "Team ZKB-V",
+      "numberWaitingCallers": 5,
+      "colorWaitingCallers": "orange",
+      "maximumWaitingTime": 1601811240000,
+      "colorWaitingTime": "red",
+      "waitingTimeToday": 1601763480000,
+      "numberCallsToday": 100,
+      "acceptedCallsToday": 96,
+      "availabilityRate": 96,
+      "colorCallsToday":"green"
+    },
+    "holdingPatternM":{
+      "title": "Team ZKB-M",
+      "numberWaitingCallers": 12,
+      "colorWaitingCallers": "red",
+      "maximumWaitingTime": 1601764680000,
+      "colorWaitingTime": "green",
+      "waitingTimeToday": 1601763480000,
+      "numberCallsToday": 119,
+      "acceptedCallsToday": 118,
+      "availabilityRate": 99,
+      "colorCallsToday":"green"
     }
   }
   

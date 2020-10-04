@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { faEllipsisV } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Card } from "react-bootstrap";
-import GenericProgressBar from "./GenericProgressBar";
+import GenericProgressBar from "../generic/GenericProgressBar";
 
 class InterviewTimes extends Component {
   

@@ -20,12 +20,12 @@ class GenericTable extends Component {
                         {this.props.tbody.map((employee, index) => (
                             <tr key={index}>
                             <td>
-                                <small>
+                                <small className="pr-3">
                                 <FontAwesomeIcon
                                     size="xs"
                                     icon={faCircle}
-                                    style={{ color: employee.backgroundColor }}
-                                />{" "}
+                                    style={{color: employee.backgroundColor }}
+                                />&nbsp;
                                 </small>
                                 <strong>{employee.name}</strong>
                             </td>

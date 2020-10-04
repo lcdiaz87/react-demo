@@ -72,7 +72,7 @@ caption.e-hide{
 }
 .teams{
   flex: 1 20rem;
-  height: 100vh;
+  margin-top: 5rem;
 }
 
 /* end main ui */

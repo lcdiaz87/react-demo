@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { faEllipsisV } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Card } from "react-bootstrap";
-import GenericTable from "./GenericTable";
+import GenericTable from "../generic/GenericTable";
 
 class TableEmployee extends Component {
     

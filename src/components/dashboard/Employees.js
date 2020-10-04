@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { faEllipsisV } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Card } from "react-bootstrap";
-import GenericDoughnutChart from "./GenericDoughnutChart";
+import GenericDoughnutChart from "../generic/GenericDoughnutChart";
 
 class Employees extends Component {
     
