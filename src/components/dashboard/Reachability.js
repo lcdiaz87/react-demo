@@ -4,9 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Card } from "react-bootstrap";
 
 class Reachability extends Component {
-  constructor(props){
-    super(props);
-  }
+  
   render() {
     
     return (

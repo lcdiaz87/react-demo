@@ -5,9 +5,7 @@ import { Card } from "react-bootstrap";
 import GenericProgressBar from "./GenericProgressBar";
 
 class AllocatedCalls extends Component {
-  constructor(props){
-    super(props);
-  }
+  
   render() {
     return (
       <Card className="m-1 w-100 h-100">

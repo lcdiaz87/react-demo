@@ -3,12 +3,9 @@ import { faEllipsisV } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Card } from "react-bootstrap";
 import GenericProgressBar from "./GenericProgressBar";
-import { findAllByDisplayValue } from "@testing-library/react";
 
 class InterviewTimes extends Component {
-  constructor(props){
-    super(props);
-  }
+  
   render() {
     //read mode by default
     let progressBar = <div>

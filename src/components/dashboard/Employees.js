@@ -5,11 +5,8 @@ import { Card } from "react-bootstrap";
 import GenericDoughnutChart from "./GenericDoughnutChart";
 
 class Employees extends Component {
-    constructor (props){
-        super(props);
-    }
+    
     render() {
-        let grafico
         return (
             <Card className="m-1 w-100 h-100">  
                 <Card.Body>

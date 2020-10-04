@@ -199,6 +199,17 @@
           { "x": "Opera", "y": 32 }
         ]
       }
-    ]
+    ],
+    "tableEmployees":{
+      "tbody": [
+        { "backgroundColor": "green", "name": "Nina Warlorski", "nr": 234, "status": "Ready", "time": "2:45min", "cause":"", "group":"" },
+        { "backgroundColor": "green", "name": "Roland Burki", "nr": 123, "status": "Ready", "time": "0:32min", "cause":"", "group":"" },
+        { "backgroundColor": "yellow", "name": "Laura Isabel Díaz", "nr": 456, "status": "Talking", "time": "3:03min", "cause":"", "group":"" },
+        { "backgroundColor": "brown", "name": "Leonie Janowski", "nr": 789, "status": "Not ready", "time": "5:12min", "cause":"", "group":"" },
+        { "backgroundColor": "brown", "name": "Katharina Bierstedt", "nr": 112, "status": "Not ready", "time": "1:12min", "cause":"post processing", "group":"" },
+        { "backgroundColor": "brown", "name": "Juan Antonio Bras", "nr": 345, "status": "Not ready", "time": "0:45min", "cause":"post processing", "group":"" }
+      ],
+      "thead":[ "Name", "NR", "Status", "Cause", "Group"]
+    }
   }
   
