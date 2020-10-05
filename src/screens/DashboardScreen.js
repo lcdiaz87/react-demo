@@ -38,7 +38,7 @@ export default class DashboardScreen extends Component {
                                     <Phone phone={data.phone} />
                                 </div>
                                 <div className="smaller">
-                                    <Task tasks={data.tasks} />
+                                    <Task /* tasks={data.tasks} */ />
                                 </div>
                             </div>
                         </div>

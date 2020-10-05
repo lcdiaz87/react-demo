@@ -157,11 +157,11 @@
       "interviewTimes":{
         "key": "secondProgressBar",
         "key2": "secondProgressBar2",
-        "total": "3:23",
-        "last": "58:32 min",
-        "speaking":"51:31",
+        "total": 1601774580000,
+        "last": 1601973120000,
+        "speaking":1601947860000,
         "value": 85,
-        "waiting": "7:01"
+        "waiting": 1601787660000
       },
       "reachability":{
         "callsToday": 100,
@@ -202,12 +202,12 @@
     ],
     "tableEmployees":{
       "tbody": [
-        { "backgroundColor": "green", "name": "Nina Warlorski", "nr": 234, "status": "Ready", "time": "2:45min", "cause":"", "group":"" },
-        { "backgroundColor": "green", "name": "Roland Burki", "nr": 123, "status": "Ready", "time": "0:32min", "cause":"", "group":"" },
-        { "backgroundColor": "yellow", "name": "Laura Isabel Díaz", "nr": 456, "status": "Talking", "time": "3:03min", "cause":"", "group":"" },
-        { "backgroundColor": "brown", "name": "Leonie Janowski", "nr": 789, "status": "Not ready", "time": "5:12min", "cause":"", "group":"" },
-        { "backgroundColor": "brown", "name": "Katharina Bierstedt", "nr": 112, "status": "Not ready", "time": "1:12min", "cause":"post processing", "group":"" },
-        { "backgroundColor": "brown", "name": "Juan Antonio Bras", "nr": 345, "status": "Not ready", "time": "0:45min", "cause":"post processing", "group":"" }
+        { "backgroundColor": "green", "name": "Nina Warlorski", "nr": 234, "status": "Ready", "time": 1601772300000, "cause":"", "group":"" },
+        { "backgroundColor": "green", "name": "Roland Burki", "nr": 123, "status": "Ready", "time": 1601764320000, "cause":"", "group":"" },
+        { "backgroundColor": "yellow", "name": "Laura Isabel Díaz", "nr": 456, "status": "Talking", "time": 1601773380000, "cause":"", "group":"" },
+        { "backgroundColor": "brown", "name": "Leonie Janowski", "nr": 789, "status": "Not ready", "time": 1601781120000, "cause":"", "group":"" },
+        { "backgroundColor": "brown", "name": "Katharina Bierstedt", "nr": 112, "status": "Not ready", "time": 1601766720000, "cause":"post processing", "group":"" },
+        { "backgroundColor": "brown", "name": "Juan Antonio Bras", "nr": 345, "status": "Not ready", "time": 1601765100000, "cause":"post processing", "group":"" }
       ],
       "thead":[ "Name", "NR", "Status", "Cause", "Group"]
     },

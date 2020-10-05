@@ -9,7 +9,6 @@ class News extends Component {
         this.state ={
             news: props.news
         };
-        console.log(props.news);
     }
     render() {
         

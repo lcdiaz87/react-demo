@@ -12,7 +12,6 @@ class Event extends Component {
         this.state ={
             events: props.events
         };
-        console.log(props.events);
     }
     render() {
         

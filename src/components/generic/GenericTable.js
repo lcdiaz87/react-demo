@@ -2,7 +2,7 @@ import { faCircle } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { Component } from "react";
 import { Table } from "react-bootstrap";
-
+import {formatTime} from "../../utils";
 class GenericTable extends Component {
     
     render() {
@@ -37,7 +37,7 @@ class GenericTable extends Component {
                                 {employee.status}
                                 </strong>
                                 <br/>
-                                <small>{employee.time}</small>
+                                <small>{formatTime(employee.time, true)}</small>
                             </td>
                             <td>
                                 <small>{employee.cause}</small>

@@ -6,10 +6,8 @@ import { faBullhorn, faCalendar, faCheckSquare, faHome, faIdCard, faMapMarker, f
 class Menu extends Component {
   constructor(props){
     super(props);
-    console.log(props);
   }
   render() {
-    console.log(this.props.to);
     
     return (
       <div className="wrap-flex-column">

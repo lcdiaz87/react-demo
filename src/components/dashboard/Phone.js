@@ -7,7 +7,6 @@ import Employees from './Employees';
 class Phone extends Component {
   constructor(props){
     super(props);
-    console.log(props.phone);
     this.state = {
       phone: props.phone
     };
